@@ -58,6 +58,7 @@ const Expose =async()=>{
     try{
 
         const fet = await fetch(`${Api}`,{
+            mode:'no-cors',
             method:"POST",
             body:JSON.stringify({
                 "segment_name":sName,
@@ -66,6 +67,7 @@ const Expose =async()=>{
              
             }),
             headers:{
+                // "access-control-allow-origin" : "*",
               "Content-type":"application/json",
             },
           });
