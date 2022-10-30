@@ -1,0 +1,50 @@
+
+.Nav{
+    background-color:lightseagreen;
+    margin: 0;
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+}
+.Nav_icon{
+    display: flex;
+}
+ .h2{
+    margin-top: 0.5em;
+    color: white;
+}
+.icon{
+    color: white;
+    /* margin: 0; */
+    padding: 0;
+    font-size: larger;
+    
+}
+.icon_name{
+    color: aliceblue;
+    margin: 0;
+    /* padding: 0; */
+}
+.Button{
+    margin-top: 2em;
+}
+.button{
+    background-color: transparent;
+}
+.View{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
+.makeres{
+    display: flex;
+    justify-content: end;
+    
+}
+.makeress{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.User{
+    margin-right: 1rem;
+}
