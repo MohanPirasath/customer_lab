@@ -28,13 +28,7 @@ export default function ResponsiveDialog() {
   const [input,addinput]=useState([{now:"account_name"}])
   const fullScreen = useMediaQuery(theme.breakpoints.down('md'));
   const [sName,setsName]=useState("")
-  const [first_name,setFName]=useState(false)
-  const [last_name,setLName]=useState(false)
-  const [gender,setgender]=useState(false)
-  const [account_name,setAcc]=useState(false)
-  const [age,setage]=useState(false)
-  const [city,setcity]=useState(false)
-  const [state,setstate]=useState(false)
+
   let Result=[]
 
   const handleClickOpen = () => {
